@@ -6,8 +6,8 @@
   "name":"o_solid",
   "overriddenProperties":[],
   "parent":{
-    "name":"informatica_game_1",
-    "path":"informatica_game_1.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Sprite11",
-    "path":"sprites/Sprite11/Sprite11.yy",
+    "name":"s_solid",
+    "path":"sprites/s_solid/s_solid.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

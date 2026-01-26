@@ -1,2 +1,0 @@
-# informatica-game
-informatica game

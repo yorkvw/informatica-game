@@ -9,8 +9,8 @@
   "name":"o_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"informatica_game_1",
-    "path":"informatica_game_1.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_player_front",
-    "path":"sprites/s_player_front/s_player_front.yy",
+    "name":"s_player_back",
+    "path":"sprites/s_player_back/s_player_back.yy",
   },
   "spriteMaskId":null,
   "visible":true,
