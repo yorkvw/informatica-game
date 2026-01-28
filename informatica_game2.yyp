@@ -56,9 +56,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"mineshaft","path":"rooms/mineshaft/mineshaft.yy",},},
-    {"roomId":{"name":"cave","path":"rooms/cave/cave.yy",},},
     {"roomId":{"name":"catacomb","path":"rooms/catacomb/catacomb.yy",},},
+    {"roomId":{"name":"cave","path":"rooms/cave/cave.yy",},},
+    {"roomId":{"name":"mineshaft","path":"rooms/mineshaft/mineshaft.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
