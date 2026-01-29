@@ -48,6 +48,7 @@
     {"id":{"name":"s_player_front","path":"sprites/s_player_front/s_player_front.yy",},},
     {"id":{"name":"s_player_side","path":"sprites/s_player_side/s_player_side.yy",},},
     {"id":{"name":"s_solid","path":"sprites/s_solid/s_solid.yy",},},
+    {"id":{"name":"Sprite9","path":"sprites/Sprite9/Sprite9.yy",},},
     {"id":{"name":"t_catacomb_decorations","path":"tilesets/t_catacomb_decorations/t_catacomb_decorations.yy",},},
     {"id":{"name":"t_catacomb_main","path":"tilesets/t_catacomb_main/t_catacomb_main.yy",},},
     {"id":{"name":"t_cave_decorations","path":"tilesets/t_cave_decorations/t_cave_decorations.yy",},},
