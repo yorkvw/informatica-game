@@ -31,3 +31,7 @@ else if (yinput < 0) {
   sprite_index = s_player_back;
   image_speed = 1;
 }
+else if (xinput == 0 && yinput == 0){
+	image_speed = 0;	
+}
+	
