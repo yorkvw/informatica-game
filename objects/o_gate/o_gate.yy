@@ -11,8 +11,11 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
+  "parentObjectId": {
+    "name": "o_solidparent",
+    "path": "objects/o_solidparent/o_solidparent.yy",
+  },
+  "physicsObject": true,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
