@@ -1,0 +1,1 @@
+value = 3; // deze gem is 3 coins waard

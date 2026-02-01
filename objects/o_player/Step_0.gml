@@ -35,3 +35,12 @@ else if (xinput == 0 && yinput == 0){
 	image_speed = 0;	
 }
 	
+// VAL COLLISION
+if (vspeed > 0) {
+    var cave_inst = instance_place(x, y + vspeed, obj_cave);
+    if (cave_inst != noone && cave_inst.is_solid) {
+        y = cave_inst.bbox_top - bbox_bottom + y;
+        vspeed = 0;
+        on_ground = true;
+    }
+}

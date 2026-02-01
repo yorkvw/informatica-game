@@ -69,6 +69,6 @@
   "nineSlice": null,
   "parent": {
     "name": "tileset_sprites",
-    "path": "folders/Sprites/interactive/tileset_sprites.yy",
+    "path": "folders/Sprites/tileset_sprites.yy",
   },
 }
