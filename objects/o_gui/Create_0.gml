@@ -1,0 +1,1 @@
+timer_seconds = 600; // 10 minuten
