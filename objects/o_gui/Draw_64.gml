@@ -9,6 +9,16 @@ if (o_player.keys > 0) {
     }
 }
 
+if (instance_exists(o_player)) {
+    var heart_spacing = 32; // Ruimte tussen de hartjes (breedte van je sprite + beetje extra)
+    var heart_y = 90;       // De hoogte (onder de keys die op 50 staan)
+
+    for (var i = 0; i < global.player_lives; i++) {
+        draw_sprite_ext(s_heart, 0, 20 + (i * heart_spacing), heart_y, 0.1, 0.1, 0, c_white, 1);
+    }
+}
+
+
 // ================= TIMER =================
 var margin = 20;
 var box_w = 110;
@@ -35,12 +45,3 @@ draw_text(
     box_y + box_h / 2 - string_height(txt) / 2,
     txt
 );
-
-// Cheats menu tekenen als open
-if (global.cheats_open) {
-    draw_set_color(c_yellow);
-    draw_text(50, 100, "CHEATS MENU");
-    draw_text(50, 130, "1 = 5 min 10 sec");
-    draw_text(50, 160, "2 = 3 min 10 sec");
-    draw_text(50, 190, "3 = 0 min 10 sec");
-}

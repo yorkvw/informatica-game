@@ -1,1 +1,1 @@
-value = 1; // normale coin
+value = 1;
