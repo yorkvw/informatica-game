@@ -1,0 +1,1 @@
+instance_destroy();  // Verwijder de poort na 1 seconde (kan vervangen worden door een andere actie)

@@ -80,8 +80,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"mainpage","path":"rooms/mainpage/mainpage.yy",},},
     {"roomId":{"name":"mineshaft","path":"rooms/mineshaft/mineshaft.yy",},},
+    {"roomId":{"name":"mainpage","path":"rooms/mainpage/mainpage.yy",},},
     {"roomId":{"name":"cave","path":"rooms/cave/cave.yy",},},
     {"roomId":{"name":"catacomb","path":"rooms/catacomb/catacomb.yy",},},
     {"roomId":{"name":"gameover","path":"rooms/gameover/gameover.yy",},},

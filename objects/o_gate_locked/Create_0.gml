@@ -1,0 +1,1 @@
+sprite_index = s_gate_locked;  // De poort begint vergrendeld
