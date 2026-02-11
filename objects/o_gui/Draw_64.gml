@@ -1,8 +1,8 @@
 // Coins linksboven
-draw_text(20, 20, string_concat("Coins: ", string(o_player.coins)));
+draw_text(20, 20, string_concat("Coins: ", string(o_controller.coins)));
 
 // Sleutels
-if (o_player.keys > 0) {
+if (o_controller.keys > 0) {
     var spacing = 32;
     for (var i = 0; i < o_player.keys; i++) {
         draw_sprite(s_key, 0, 20 + i * spacing, 50);
@@ -46,5 +46,6 @@ draw_text(
     txt
 );
 
-instance_activate_all();
-global.game_paused = false;
+if (instance_exists(o_controller)) {
+    draw_text(20, 20, "Coins: " + string(o_controller.coins));
+}

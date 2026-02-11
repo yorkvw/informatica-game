@@ -1,2 +1,2 @@
-other.coins += value;
+o_controller.coins += value;
 instance_destroy();  

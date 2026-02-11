@@ -28,6 +28,7 @@
     {"id":{"name":"o_gem","path":"objects/o_gem/o_gem.yy",},"order":10,},
     {"id":{"name":"cave","path":"rooms/cave/cave.yy",},"order":0,},
     {"id":{"name":"s_options","path":"sprites/s_options/s_options.yy",},"order":4,},
+    {"id":{"name":"o_time_upgrade","path":"objects/o_time_upgrade/o_time_upgrade.yy",},"order":6,},
     {"id":{"name":"mineshaft","path":"rooms/mineshaft/mineshaft.yy",},"order":0,},
     {"id":{"name":"s_catacomb_decorations","path":"sprites/s_catacomb_decorations/s_catacomb_decorations.yy",},"order":0,},
     {"id":{"name":"o_gate_locked","path":"objects/o_gate_locked/o_gate_locked.yy",},"order":3,},
@@ -75,6 +76,7 @@
     {"id":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},"order":14,},
     {"id":{"name":"s_logo_N","path":"sprites/s_logo_N/s_logo_N.yy",},"order":4,},
     {"id":{"name":"o_chest_key","path":"objects/o_chest_key/o_chest_key.yy",},"order":12,},
+    {"id":{"name":"upgrade_menu","path":"rooms/upgrade_menu/upgrade_menu.yy",},"order":3,},
     {"id":{"name":"o_chest","path":"objects/o_chest/o_chest.yy",},"order":4,},
     {"id":{"name":"t_catacomb_decorations","path":"tilesets/t_catacomb_decorations/t_catacomb_decorations.yy",},"order":0,},
     {"id":{"name":"t_catacomb_main","path":"tilesets/t_catacomb_main/t_catacomb_main.yy",},"order":0,},
@@ -108,6 +110,7 @@
     {"roomId":{"name":"r_gameover","path":"rooms/r_gameover/r_gameover.yy",},},
     {"roomId":{"name":"cave","path":"rooms/cave/cave.yy",},},
     {"roomId":{"name":"mineshaft","path":"rooms/mineshaft/mineshaft.yy",},},
+    {"roomId":{"name":"upgrade_menu","path":"rooms/upgrade_menu/upgrade_menu.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":0,},
