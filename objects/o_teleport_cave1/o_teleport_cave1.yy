@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_teleport",
+  "name": "o_teleport_cave1",
   "spriteId": {
     "name": "s_solid",
     "path": "sprites/s_solid/s_solid.yy",
