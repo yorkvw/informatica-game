@@ -1,1 +1,1 @@
-room_goto(catacomb);
+room_goto(cave);

@@ -45,3 +45,6 @@ draw_text(
     box_y + box_h / 2 - string_height(txt) / 2,
     txt
 );
+
+instance_activate_all();
+global.game_paused = false;

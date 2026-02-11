@@ -55,7 +55,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7A14A02B","properties":[],"isDnd":false,"objectId":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.78125,"scaleY":1.65625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1975.0,"y":541.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_514EA524","properties":[],"isDnd":false,"objectId":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.96875,"scaleY":-0.95089346,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1873.0,"y":542.4432,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3593C2B3","properties":[],"isDnd":false,"objectId":{"name":"o_teleport_upgrades","path":"objects/o_teleport_upgrades/o_teleport_upgrades.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":0.953125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1072.0,"y":961.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_21E9224F","properties":[],"isDnd":false,"objectId":{"name":"o_teleport_upgrades","path":"objects/o_teleport_upgrades/o_teleport_upgrades.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1072.0,"y":746.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"details","tilesetId":{"name":"t_cave_decorations","path":"tilesets/t_cave_decorations/t_cave_decorations.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":125,"SerialiseHeight":63,"TileCompressedData":[
 -7875,-2147483648,],},"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -139,7 +138,6 @@
     {"name":"inst_7A14A02B","path":"rooms/mineshaft/mineshaft.yy",},
     {"name":"inst_514EA524","path":"rooms/mineshaft/mineshaft.yy",},
     {"name":"inst_3593C2B3","path":"rooms/mineshaft/mineshaft.yy",},
-    {"name":"inst_21E9224F","path":"rooms/mineshaft/mineshaft.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
