@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_time_upgrade",
+  "name": "o_crystal",
   "spriteId": {
-    "name": "s_time_upgrade",
-    "path": "sprites/s_time_upgrade/s_time_upgrade.yy",
+    "name": "s_crystal",
+    "path": "sprites/s_crystal/s_crystal.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,13 +26,12 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "gui",
-    "path": "folders/Objects/gui.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }

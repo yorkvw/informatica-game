@@ -4,7 +4,7 @@ draw_text(20, 20, string_concat("Coins: ", string(o_controller.coins)));
 // Sleutels
 if (o_controller.keys > 0) {
     var spacing = 32;
-    for (var i = 0; i < o_player.keys; i++) {
+    for (var i = 0; i < o_controller.keys; i++) {
         draw_sprite(s_key, 0, 20 + i * spacing, 50);
     }
 }
