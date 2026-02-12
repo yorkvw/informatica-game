@@ -2,14 +2,14 @@
 if (!opened && keyboard_check_pressed(ord("E"))) {
     if (position_meeting(x, y, o_player)) { // speler "in contact" met de kist
         opened = true;
-        sprite_index = s_gem;   // kist open
-        o_player.coins += value;       // coins geven
+	    sprite_index = s_crystal_destroyed;	
+        o_controller.coins += value;       // coins geven
     }
 }
 
 if (!opened && keyboard_check_pressed(ord("E"))) {
     if (point_distance(x, y, o_player.x, o_player.y) < 32) {
         opened = true;
-        sprite_index = s_gem;
+	    sprite_index = s_crystal_destroyed;	
     }
 }
