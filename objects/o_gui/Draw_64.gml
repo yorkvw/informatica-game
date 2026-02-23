@@ -9,6 +9,13 @@ if (o_controller.keys > 0) {
     }
 }
 
+// artefact
+if (o_controller.artefact > 0) {
+    var spacing = 32;
+    for (var i = 0; i < o_controller.artefact; i++) {
+        draw_sprite(s_key, 0, 20 + i * spacing, 50);
+    }
+}
 if (instance_exists(o_player)) {
     var heart_spacing = 32; // Ruimte tussen de hartjes (breedte van je sprite + beetje extra)
     var heart_y = 90;       // De hoogte (onder de keys die op 50 staan)
