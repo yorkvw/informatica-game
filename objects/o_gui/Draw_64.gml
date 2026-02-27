@@ -13,7 +13,7 @@ if (o_controller.keys > 0) {
 if (o_controller.artefact > 0) {
     var spacing = 32;
     for (var i = 0; i < o_controller.artefact; i++) {
-        draw_sprite(s_key, 0, 20 + i * spacing, 50);
+        draw_sprite(s_placeholder_artefact, 0, 20 + i * spacing, 70);
     }
 }
 if (instance_exists(o_player)) {
