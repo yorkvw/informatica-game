@@ -4,6 +4,7 @@ if (!opened && keyboard_check_pressed(ord("E"))) {
         opened = true;
         sprite_index = s_chest_opened;   // kist open
         o_controller.coins += value;       // coins geven
+		o_controller.flash_key_timer = 10;
     }
 }
 
