@@ -39,7 +39,7 @@
     {"id":{"name":"s_catacomb_decorations","path":"sprites/s_catacomb_decorations/s_catacomb_decorations.yy",},"order":0,},
     {"id":{"name":"fnt_gui","path":"fonts/fnt_gui/fnt_gui.yy",},"order":0,},
     {"id":{"name":"o_gate_locked","path":"objects/o_gate_locked/o_gate_locked.yy",},"order":5,},
-    {"id":{"name":"o_teleport_nextroom","path":"objects/o_teleport_nextroom/o_teleport_nextroom.yy",},"order":1,},
+    {"id":{"name":"o_teleport","path":"objects/o_teleport/o_teleport.yy",},"order":1,},
     {"id":{"name":"o_gui","path":"objects/o_gui/o_gui.yy",},"order":2,},
     {"id":{"name":"o_logo","path":"objects/o_logo/o_logo.yy",},"order":1,},
     {"id":{"name":"o_gate_randomized","path":"objects/o_gate_randomized/o_gate_randomized.yy",},"order":11,},
