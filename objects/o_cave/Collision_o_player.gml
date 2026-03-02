@@ -9,8 +9,12 @@ function cave_tutorial(){
 }
 
 if (room == mineshaft) {
-	cave_tutorial()
-	return;
+	show_debug_message(tutorial)
+	if(tutorial == false){
+		cave_tutorial()
+		tutorial = true
+		return;
+	}
 }
 
 if (sprite_index == s_cave_open) {
