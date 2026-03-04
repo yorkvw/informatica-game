@@ -1,0 +1,54 @@
+Merged teleport branch into main. Merged chest objects into one. Made
+the teleport function functional. Added chest animation and prompt.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Wed Mar 4 07:32:25 2026 +0100
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	modified:   informatica_game2.yyp
+#	new file:   objects/o_camera/Other_4.gml
+#	modified:   objects/o_camera/Step_0.gml
+#	modified:   objects/o_camera/o_camera.yy
+#	modified:   objects/o_cave/Collision_o_player.gml
+#	modified:   objects/o_cave/o_cave.yy
+#	modified:   objects/o_chest/Create_0.gml
+#	new file:   objects/o_chest/Draw_0.gml
+#	modified:   objects/o_chest/Step_0.gml
+#	modified:   objects/o_chest/o_chest.yy
+#	new file:   objects/o_item_popup/Create_0.gml
+#	new file:   objects/o_item_popup/Step_0.gml
+#	new file:   objects/o_item_popup/o_item_popup.yy
+#	modified:   objects/o_player/Collision_o_teleport.gml
+#	modified:   objects/o_player/Create_0.gml
+#	new file:   objects/o_player/Other_4.gml
+#	modified:   objects/o_player/o_player.yy
+#	modified:   objects/o_rocks_randomized_vertical/o_rocks_randomized_vertical.yy
+#	modified:   objects/o_teleport/o_teleport.yy
+#	new file:   objects/obsolete_use_o_chest/Create_0.gml
+#	new file:   objects/obsolete_use_o_chest/Step_0.gml
+#	new file:   objects/obsolete_use_o_chest/obsolete_use_o_chest.yy
+#	new file:   objects/obsolete_use_o_chest_/Create_0.gml
+#	new file:   objects/obsolete_use_o_chest_/Step_0.gml
+#	new file:   objects/obsolete_use_o_chest_/obsolete_use_o_chest_.yy
+#	modified:   rooms/catacomb/catacomb.yy
+#	new file:   rooms/cave/InstanceCreationCode_inst_2A572805.gml
+#	new file:   rooms/cave/InstanceCreationCode_inst_7B0A5D53.gml
+#	modified:   rooms/cave/cave.yy
+#	new file:   rooms/mineshaft/InstanceCreationCode_inst_212621B9.gml
+#	new file:   rooms/mineshaft/InstanceCreationCode_inst_470A0542.gml
+#	new file:   rooms/mineshaft/InstanceCreationCode_inst_4F2931AA.gml
+#	modified:   rooms/mineshaft/mineshaft.yy
+#	new file:   sprites/s_e_prompt/4af1f989-bb22-47d0-ac9f-77f8720a9d11.png
+#	new file:   sprites/s_e_prompt/layers/4af1f989-bb22-47d0-ac9f-77f8720a9d11/3f9b9e95-f393-46ce-bb56-88ed36429462.png
+#	new file:   sprites/s_e_prompt/s_e_prompt.yy
+#	modified:   sprites/s_solid/b35c23cd-99af-4a80-8e9a-5ad97be153e1.png
+#	modified:   sprites/s_solid/layers/b35c23cd-99af-4a80-8e9a-5ad97be153e1/a66f7c9a-20d7-4354-95a7-bd64f487cd5a.png
+#	new file:   sprites/s_solid60/b35c23cd-99af-4a80-8e9a-5ad97be153e1.png
+#	new file:   sprites/s_solid60/layers/b35c23cd-99af-4a80-8e9a-5ad97be153e1/a66f7c9a-20d7-4354-95a7-bd64f487cd5a.png
+#	new file:   sprites/s_solid60/s_solid60.yy
+#
