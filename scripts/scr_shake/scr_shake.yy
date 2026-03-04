@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scr_shake_camera",
+  "name": "scr_shake",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

@@ -1,2 +1,2 @@
-timer_seconds = 600; // 10 minuten
-event_5min_triggered = false;
+timer_seconds = 310; // 10 minuten
+shook_at_5 = false;

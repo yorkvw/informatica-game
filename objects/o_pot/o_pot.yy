@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "o_pot",
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_pot_1",
+    "path": "sprites/s_pot_1/s_pot_1.yy",
+  },
   "solid": true,
   "visible": true,
   "managed": true,

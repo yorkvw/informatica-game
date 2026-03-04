@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_teleport",
   "spriteId": {
-    "name": "s_solid60",
-    "path": "sprites/s_solid60/s_solid60.yy",
+    "name": "s_solid_blue",
+    "path": "sprites/s_solid_blue/s_solid_blue.yy",
   },
   "solid": true,
   "visible": false,

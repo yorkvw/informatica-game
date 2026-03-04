@@ -10,10 +10,10 @@ else {
         room_goto(r_gameover);
     }
 }
-/*
-if (timer_seconds >= 300 && !event_5min_triggered) {
-    
-    audio_play_sound(snd_cave1, 100, false);
 
+if (timer_seconds <= 300 && shook_at_5 == false) {
+
+    screen_shake(5, 30); 
+    
+    shook_at_5 = true; 
 }
-*/
