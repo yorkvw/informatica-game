@@ -108,7 +108,21 @@ var box_y = margin;
 
 var minutes = timer_seconds div 60;
 var seconds = timer_seconds mod 60;
-var txt = string(minutes) + ":" + string_format(seconds, 2, 0);
+
+// Maak er tekst van en check of er een 0 voor moet (voor de minuten)
+var str_minutes = string(minutes);
+if (minutes < 10) {
+    str_minutes = "0" + str_minutes;
+}
+
+// Check of er een 0 voor moet (voor de seconden)
+var str_seconds = string(seconds);
+if (seconds < 10) {
+    str_seconds = "0" + str_seconds;
+}
+
+// Plak ze aan elkaar met een dubbele punt
+var txt = str_minutes + ":" + str_seconds;
 
 draw_set_alpha(0.7);
 draw_set_color(c_black);
@@ -119,5 +133,8 @@ draw_set_color(c_white);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_text(box_x + box_w / 2, box_y + box_h / 2, txt);
-draw_set_halign(fa_left); // reset naar links voor de rest van de GUI
-draw_set_valign(fa_top); // reset naar top voor de rest van de GUI
+
+// reset naar links voor de rest van de GUI
+draw_set_halign(fa_left); 
+// reset naar top voor de rest van de GUI
+draw_set_valign(fa_top);
