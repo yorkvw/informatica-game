@@ -1,5 +1,1 @@
-function teleport(nextroom, xcoordinate, ycoordinate){
-	room.goto(nextroom)
-	x = xcoordinate
-	y = ycoordinate
-}
+teleport(other.target_room, other.target_x, other.target_y);

@@ -1,21 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_chest",
-  "spriteId": {
-    "name": "s_chest_closed",
-    "path": "sprites/s_chest_closed/s_chest_closed.yy",
-  },
-  "solid": true,
+  "name": "o_item_popup",
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "o_solidparent",
-    "path": "objects/o_solidparent/o_solidparent.yy",
-  },
-  "physicsObject": true,
+  "parentObjectId": null,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -30,12 +24,11 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "instances",
-    "path": "folders/Objects/instances.yy",
+    "name": "gui",
+    "path": "folders/Objects/gui.yy",
   },
 }

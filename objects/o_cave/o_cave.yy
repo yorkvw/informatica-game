@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "o_cave",
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_cave_collapsed",
+    "path": "sprites/s_cave_collapsed/s_cave_collapsed.yy",
+  },
   "solid": true,
   "visible": true,
   "managed": true,

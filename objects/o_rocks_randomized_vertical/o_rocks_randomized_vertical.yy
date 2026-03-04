@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "o_rocks_randomized_vertical",
-  "spriteId": {
-    "name": "s_rocks_collapsed_vertical",
-    "path": "sprites/s_rocks_collapsed_vertical/s_rocks_collapsed_vertical.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
