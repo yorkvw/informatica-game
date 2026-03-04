@@ -1,9 +1,9 @@
 // check of speler dichtbij is (simple rectangle collision)
 if (!opened && keyboard_check_pressed(ord("E"))) {
-    if (position_meeting(x, y, o_player)) { // speler "in contact" met de kist
+    if (position_meeting(x, y, o_player)) { 
         opened = true;
 	    sprite_index = s_crystal_destroyed;	
-        o_controller.coins += value;       // coins geven
+        o_controller.coins += value;
     }
 }
 
