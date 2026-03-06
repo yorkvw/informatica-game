@@ -1,9 +1,9 @@
 if (keyboard_check_pressed(ord("E"))) {
     if (opened == false) {
-        if (place_meeting(x, y-5, o_player)) 
+        if (distance_to_object(o_player) < 30) 
         {
             opened = true;
-			o_player.coins += 3
+			o_controller.coins += 3
             switch(sprite_index)
             {
                 case s_pot_1: 
