@@ -1,4 +1,4 @@
-if (keyboard_check_pressed(ord("E"))) {
+//Zif (keyboard_check_pressed(ord("E"))) {
     if (opened == false) {
         if (distance_to_object(o_player) < 30) 
         {
@@ -21,4 +21,4 @@ if (keyboard_check_pressed(ord("E"))) {
             }
         }
     }
-}
+//}
