@@ -1,5 +1,9 @@
 var _gw = display_get_gui_width();
 
+if (variable_instance_exists(id, "my_font")) {
+    draw_set_font(my_font);
+}
+
 // draw_set_font(f_pixel);
 draw_set_halign(fa_center);
 draw_set_valign(fa_top);

@@ -1,0 +1,13 @@
+{
+    "version": "1.0",
+    "messages": {
+        "cave_open": {
+            "nl": "Deze cave is open, je kunt hiermee snel naar het volgend level. Het kan voorkomen dat de cave gesloten is, dan moet je een andere weg uit vinden.",
+            "tr": "Bu mağara açık, bu sayede hızlıca bir sonraki seviyeye geçebilirsin. Mağara kapalı olabilir, o zaman başka bir yol bulmalısın."
+        },
+        "cave_closed": {
+            "nl": "Het ziet er naar uit dat deze cave ingestort is, je zult een andere weg moeten vinden.",
+            "tr": "Bu mağara çökmüş görünüyor, başka bir yol bulmalısın."
+        }
+    }
+}

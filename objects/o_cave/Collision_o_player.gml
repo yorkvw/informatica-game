@@ -1,11 +1,11 @@
 function cave_tutorial() {
     if (sprite_index == s_cave_open) {
-        show_hint("Deze cave is open, je kunt hiermee snel naar het volgend level. Het kan voorkomen dat de cave gesloten is, dan moet je een andere weg uit vinden.");
+        show_hint("cave_open");
         
         o_player.teleport(target_room, target_x, target_y);
     }
     else {
-        show_hint("De cave is gesloten. Je zult een andere weg moeten vinden om verder te komen.");
+        show_hint("cave_closed");
     }
 }
 
