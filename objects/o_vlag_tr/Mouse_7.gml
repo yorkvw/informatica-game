@@ -6,4 +6,5 @@ if (instance_exists(o_controller)) {
     o_controller.save_data();
 }
 
-room_goto(mineshaft);
+show_hint("welcome")
+room_goto(r_stad);

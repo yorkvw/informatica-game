@@ -8,6 +8,54 @@
         "cave_closed": {
             "nl": "Het ziet er naar uit dat deze cave ingestort is, je zult een andere weg moeten vinden.",
             "tr": "Bu mağara çökmüş görünüyor, başka bir yol bulmalısın."
+        },
+        "welcome": {
+            "nl": "Na maanden reizen, ben je eindelijk aangekomen in een vreemde stad. πόλη, zoals de inwoners het noemen. Je hebt gehoord dat er een schat verborgen ligt in deze stad, maar niemand weet precies waar. Je besluit om op onderzoek uit te gaan en de geheimen van πόλη te ontdekken.",
+            "tr": "Aylar süren yolculuktan sonra, sonunda garip bir şehre geldin. Yerel halkın 'πόλη' dediği bu şehirde, gizli bir hazine olduğunu duydun ama kimse tam olarak nerede olduğunu bilmiyor. Araştırmaya karar veriyorsun ve πόλη'nin sırlarını keşfetmeye başlıyorsun."
+        },
+        "char1D1":
+        {
+            "nl": "C1: Jij ziet er verloren uit, vreemdeling. Wat brengt jou naar πόλη?",
+            "tr": "C1: Kayıp görünüyorsun, yabancı. Seni πόλη'ye ne getirdi?"
+        },
+        "char1D2":
+        {
+            "nl": "Jij: Ik ben op zoek naar de schat van πόλη.",
+            "tr": "Sen: πόλη'nin hazinesini arıyorum."
+        },
+        "char1D3":
+        {
+            "nl": "C1: Je bent in de oude stad. Een plek die... nou ja, niet veel bezoekers krijgt.",
+            "tr": "C1: Eski şehirdesin. Pek çok ziyaretçi almayan bir yer."
+        },
+        "char1D4":
+        {
+            "nl": "C1: Maar je bent niet aan het verkeerde adres gekomen! Dit is de markt. Het hart van de stad.",
+            "tr": "C1: Ama yanlış adrese gelmedin! Burası pazar. Şehrin kalbi."
+        },
+        "char1D5":
+        {
+            "nl": "C1: Hier vind je alles wat je nodig hebt. Van voedsel tot wapens, van kleding tot... nou ja, eigenlijk alles.",
+            "tr": "C1: Burada ihtiyacın olan her şeyi bulabilirsin. Yiyecekten silahlara, kıyafetten... aslında her şeye."
+        },
+        "char1D6":
+        {
+            "nl": "C1: Maar jij ruikt naar avontuur... Wat jij zoekt is NIET hier in op de markt."
+        },
+        "char1D7":
+        {
+            "nl": "Jij: Ik zoek iemand... mij is verteld dat ik hem hier kan vinden.",
+            "tr": "Sen: Birini arıyorum... Bana burada bulabileceğim söylendi."
+        },
+        "char1D8":
+        {   
+            "nl": "C1: Ik kan je helpen. Er is iemand... in de shop. Aan de zuid-west kant van het plein. Een oude man.",
+            "tr": "C1: Sana yardım edebilirim. Birisi var... tavernada. Meydanın güney tarafında. Yaşlı bir adam."
+        },
+        "char1DEND":
+        {
+            "nl": "Ga opzoek naar de oude man in de shop, hij kan je misschien verder helpen.",
+            "tr": "Tavernada yaşlı adamı ara, belki sana daha fazla yardımcı olabilir."
         }
     }
 }
