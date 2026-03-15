@@ -29,7 +29,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "informatica_game2",
-    "path": "informatica_game2.yyp",
+    "name": "controller objects",
+    "path": "folders/Objects/controller objects.yy",
   },
 }

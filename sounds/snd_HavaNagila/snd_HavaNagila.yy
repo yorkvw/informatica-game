@@ -17,7 +17,7 @@
   "soundFile": "snd_HavaNagila.mp3",
   "duration": 22.778776,
   "parent": {
-    "name": "informatica_game2",
-    "path": "informatica_game2.yyp",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
 }

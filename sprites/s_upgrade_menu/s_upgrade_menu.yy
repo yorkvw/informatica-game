@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "informatica_game2",
-    "path": "informatica_game2.yyp",
+    "name": "gui",
+    "path": "folders/Sprites/gui.yy",
   },
 }
