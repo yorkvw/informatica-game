@@ -13,49 +13,85 @@
             "nl": "Na maanden reizen, ben je eindelijk aangekomen in een vreemde stad. πόλη, zoals de inwoners het noemen. Je hebt gehoord dat er een schat verborgen ligt in deze stad, maar niemand weet precies waar. Je besluit om op onderzoek uit te gaan en de geheimen van πόλη te ontdekken.",
             "tr": "Aylar süren yolculuktan sonra, sonunda garip bir şehre geldin. Yerel halkın 'πόλη' dediği bu şehirde, gizli bir hazine olduğunu duydun ama kimse tam olarak nerede olduğunu bilmiyor. Araştırmaya karar veriyorsun ve πόλη'nin sırlarını keşfetmeye başlıyorsun."
         },
-        "char1D1":
-        {
+        "char1D1": {
             "nl": "C1: Jij ziet er verloren uit, vreemdeling. Wat brengt jou naar πόλη?",
             "tr": "C1: Kayıp görünüyorsun, yabancı. Seni πόλη'ye ne getirdi?"
         },
-        "char1D2":
-        {
+        "char1D2": {
             "nl": "Jij: Ik ben op zoek naar de schat van πόλη.",
             "tr": "Sen: πόλη'nin hazinesini arıyorum."
         },
-        "char1D3":
-        {
+        "char1D3": {
             "nl": "C1: Je bent in de oude stad. Een plek die... nou ja, niet veel bezoekers krijgt.",
             "tr": "C1: Eski şehirdesin. Pek çok ziyaretçi almayan bir yer."
         },
-        "char1D4":
-        {
+        "char1D4": {
             "nl": "C1: Maar je bent niet aan het verkeerde adres gekomen! Dit is de markt. Het hart van de stad.",
             "tr": "C1: Ama yanlış adrese gelmedin! Burası pazar. Şehrin kalbi."
         },
-        "char1D5":
-        {
+        "char1D5": {
             "nl": "C1: Hier vind je alles wat je nodig hebt. Van voedsel tot wapens, van kleding tot... nou ja, eigenlijk alles.",
             "tr": "C1: Burada ihtiyacın olan her şeyi bulabilirsin. Yiyecekten silahlara, kıyafetten... aslında her şeye."
         },
-        "char1D6":
-        {
-            "nl": "C1: Maar jij ruikt naar avontuur... Wat jij zoekt is NIET hier in op de markt."
+        "char1D6": {
+            "nl": "C1: Maar jij ruikt naar avontuur... Wat jij zoekt is NIET hier op de markt."
         },
-        "char1D7":
-        {
+        "char1D7": {
             "nl": "Jij: Ik zoek iemand... mij is verteld dat ik hem hier kan vinden.",
             "tr": "Sen: Birini arıyorum... Bana burada bulabileceğim söylendi."
         },
-        "char1D8":
-        {   
+        "char1D8": {
             "nl": "C1: Ik kan je helpen. Er is iemand... in de shop. Aan de zuid-west kant van het plein. Een oude man.",
             "tr": "C1: Sana yardım edebilirim. Birisi var... tavernada. Meydanın güney tarafında. Yaşlı bir adam."
         },
-        "char1DEND":
-        {
+        "char1DEND": {
             "nl": "Ga opzoek naar de oude man in de shop, hij kan je misschien verder helpen.",
             "tr": "Tavernada yaşlı adamı ara, belki sana daha fazla yardımcı olabilir."
+        },
+
+        "char2D1": {
+            "nl": "Gids: Eindelijk... ik vroeg me al af wanneer jij zou komen, vreemdeling.",
+            "tr": "Rehber: Sonunda... Ne zaman geleceğini merak ediyordum, yabancı."
+        },
+        "char2D2": {
+            "nl": "Jij: U kent me?",
+            "tr": "Sen: Beni tanıyor musunuz?"
+        },
+        "char2D3": {
+            "nl": "Gids: Nee. Maar ik ken iedereen die ooit naar de schat van πόλη heeft gezocht. En ze eindigen allemaal hier, bij mij.",
+            "tr": "Rehber: Hayır. Ama πόλη'nin hazinesini arayan herkesi tanırım. Ve hepsi sonunda buraya, bana gelir."
+        },
+        "char2D4": {
+            "nl": "Gids: Luister goed. Wat je zoekt ligt diep onder de grond.",
+            "tr": "Rehber: Dikkatlice dinle. Aradığın şey yerin derinliklerinde."
+        },
+        "char2D5": {
+            "nl": "Gids: Aan de oostkant van de stad, naast de stadstuin, vind je de ingang van de mineshaft.",
+            "tr": "Rehber: Şehrin doğu tarafında, şehir bahçesinin yanında, maden ocağının girişini bulacaksın."
+        },
+        "char2D6": {
+            "nl": "Gids: Vanuit de mineshaft kun je de cave bereiken. En de cave... die brengt je uit in de catacomb.",
+            "tr": "Rehber: Maden ocağından mağaraya ulaşabilirsin. Ve mağara... seni katakombaya çıkarır."
+        },
+        "char2D7": {
+            "nl": "Gids: De catacomb is geen prettige plek, vreemdeling. Maar de schat wacht nergens anders.",
+            "tr": "Rehber: Katakomba hoş bir yer değil, yabancı. Ama hazine başka bir yerde seni beklemiyor."
+        },
+        "char2D8": {
+            "nl": "Jij: En u? Waarom helpt u mij?",
+            "tr": "Sen: Peki siz? Neden bana yardım ediyorsunuz?"
+        },
+        "char2D9": {
+            "nl": "Gids: Laten we zeggen... dat ik er belang bij heb dat jij slaagt waar anderen faalden.",
+            "tr": "Rehber: Diyelim ki... başkalarının başaramadığı yerde senin başarmanla ilgili çıkarım var."
+        },
+        "char2D10": {
+            "nl": "Gids: Maar voor je vertrekt — ik heb hier wat spullen die je onderweg goed van pas kunnen komen. Upgrades, zeg maar.",
+            "tr": "Rehber: Ama gitmeden önce — yolda işine yarayabilecek bazı şeylerim var burada. Yükseltmeler, diyebiliriz."
+        },
+        "char2DEND": {
+            "nl": "Bekijk de upgrades van de Gids. Daarna: zoek de mineshaft aan de oostkant van de stad.",
+            "tr": "Rehberin yükseltmelerine bak. Sonra: şehrin doğusundaki maden ocağını ara."
         }
     }
 }

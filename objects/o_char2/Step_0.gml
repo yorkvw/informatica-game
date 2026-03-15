@@ -4,8 +4,10 @@
 if (keyboard_check_pressed(ord("E"))) {
     if (menu_open) {
         if (selected_upgrade != -1) {
+            stop_upgrade_sound();
             selected_upgrade = -1; // detail → overzicht
         } else {
+            stop_upgrade_sound();
             menu_open = false;     // overzicht → dicht
         }
     } else if (instance_exists(o_player) && distance_to_object(o_player) < 30) {
@@ -40,8 +42,10 @@ var _py = _cy - _ph / 2;
 // ── Klik buiten paneel = sluiten ──────────────────────────
 if (_mx < _px || _mx > _px + _pw || _my < _py || _my > _py + _ph) {
     if (selected_upgrade != -1) {
+        stop_upgrade_sound();
         selected_upgrade = -1;
     } else {
+        stop_upgrade_sound();
         menu_open = false;
     }
     exit;
@@ -66,6 +70,7 @@ if (selected_upgrade == -1) {
 
         if (_mx > _ix && _mx < _ix + _card_w && _my > _iy && _my < _iy + _card_h) {
             selected_upgrade = i;
+            start_upgrade_sound(upgrades[i]);
             exit;
         }
     }
@@ -82,6 +87,7 @@ if (selected_upgrade == -1) {
     var _back_w = 84;
     var _back_h = 28;
     if (_mx > _back_x && _mx < _back_x + _back_w && _my > _back_y && _my < _back_y + _back_h) {
+        stop_upgrade_sound();
         selected_upgrade = -1;
         exit;
     }

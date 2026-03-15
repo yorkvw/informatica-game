@@ -1,5 +1,21 @@
-menu_open      = false;
-selected_upgrade = -1; // -1 = overzicht, anders = index van geselecteerde upgrade
+menu_open        = false;
+selected_upgrade = -1;    // -1 = overzicht, anders = index van geselecteerde upgrade
+active_sound_id  = -1;    // houdt de huidige audio_play_sound instantie bij
+
+// ── Sound helpers (instance methodes zodat ze altijd bereikbaar zijn) ──
+stop_upgrade_sound = function() {
+    if (active_sound_id != -1 && audio_is_playing(active_sound_id)) {
+        audio_stop_sound(active_sound_id);
+    }
+    active_sound_id = -1;
+};
+
+start_upgrade_sound = function(_item) {
+    stop_upgrade_sound();
+    if (variable_struct_exists(_item, "snd")) {
+        active_sound_id = audio_play_sound(_item.snd, 10, true); // priority 10, loop
+    }
+};
 
 if (!variable_global_exists("total_coins")) {
     global.total_coins = 150;

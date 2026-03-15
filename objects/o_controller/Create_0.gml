@@ -12,6 +12,8 @@ upgrade_cost = 1;     // kost 1 coin
 // Opgeslagen variabelen
 global.total_coins = 0;
 global.total_artefacts = 0;
+global.pickaxeUnlocked = false;
+global.talkedToNpc = false;
 
 // Save Data Functie
 save_data = function() {
@@ -24,7 +26,9 @@ save_data = function() {
     var _data_struct = {
         total_coins: global.total_coins,
         total_artefacts: global.total_artefacts,
-        language: global.language
+        language: global.language,
+		upgrade_pickaxe: global.pickaxeUnlocked,
+		finishedTutorial: global.talkedToNpc
     };
     
     var _json_string = json_stringify(_data_struct);
@@ -51,10 +55,14 @@ load_data = function() {
         
         if (variable_struct_exists(_save_data, "total_coins")) global.total_coins = _save_data.total_coins;
         if (variable_struct_exists(_save_data, "total_artefacts")) global.total_artefacts = _save_data.total_artefacts;
+		if (variable_struct_exists(_save_data, "upgrade_pickaxe")) global.pickaxeUnlocked = _save_data.upgrade_pickaxe;
         if (variable_struct_exists(_save_data, "language")) global.language = _save_data.language;
+		if (variable_struct_exists(_save_data, "finishedTutorial")) global.talkedToNpc = _save_data.finishedTutorial;
     } else {
         global.total_coins = 0;
         global.total_artefacts = 0;
+		global.pickaxeUnlocked = false;
+		global.talkedToNpc = false;
         global.language = "";
     }
 };
