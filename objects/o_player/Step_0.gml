@@ -104,3 +104,14 @@ if (vspeed > 0) {
         on_ground = true;
     }
 }
+
+if (isSwingingPickaxe) {
+    image_index += 0.2;  // Control animation speed (adjust 0.2 as needed)
+    
+    // When animation finishes (8 frames), go back to idle
+    if (image_index >= image_number) {
+        isSwingingPickaxe = false;
+        sprite_index = s_idle;  // Or whatever your idle sprite is
+        image_index = 0;
+    }
+}

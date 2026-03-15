@@ -7,3 +7,6 @@ function teleport(nextroom, xcoordinate, ycoordinate){
     global.target_y = ycoordinate;
 	room_goto(nextroom)
 }
+
+talkToNpcHint = false;
+isSwingingPickaxe = false;

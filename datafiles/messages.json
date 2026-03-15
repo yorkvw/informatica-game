@@ -92,6 +92,14 @@
         "char2DEND": {
             "nl": "Bekijk de upgrades van de Gids. Daarna: zoek de mineshaft aan de oostkant van de stad.",
             "tr": "Rehberin yükseltmelerine bak. Sonra: şehrin doğusundaki maden ocağını ara."
+        },
+        "talkToNpc": {
+            "nl": "Misschien moet je eerst met de gids in de shop praten.",
+            "tr": "Belki önce tavernadaki rehberle konuşmalısın."
+        },
+        "pickaxeNeeded": {
+            "nl": "Voor deze actie heb je een pickaxe nodig.",
+            "tr": "Bu eylem için bir kazmaya ihtiyacın var." 
         }
     }
 }

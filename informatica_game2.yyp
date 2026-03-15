@@ -100,6 +100,7 @@
     {"id":{"name":"s_titlescreen","path":"sprites/s_titlescreen/s_titlescreen.yy",},"order":0,},
     {"id":{"name":"s_e_interact","path":"sprites/s_e_interact/s_e_interact.yy",},"order":14,},
     {"id":{"name":"snd_ezan","path":"sounds/snd_ezan/snd_ezan.yy",},"order":2,},
+    {"id":{"name":"s_player_pickaxe_front","path":"sprites/s_player_pickaxe_front/s_player_pickaxe_front.yy",},"order":9,},
     {"id":{"name":"s_chest_closed","path":"sprites/s_chest_closed/s_chest_closed.yy",},"order":1,},
     {"id":{"name":"s_player_sword_back","path":"sprites/s_player_sword_back/s_player_sword_back.yy",},"order":3,},
     {"id":{"name":"s_cave_main","path":"sprites/s_cave_main/s_cave_main.yy",},"order":3,},
@@ -161,8 +162,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"r_upgrade","path":"rooms/r_upgrade/r_upgrade.yy",},},
     {"roomId":{"name":"mainpage","path":"rooms/mainpage/mainpage.yy",},},
+    {"roomId":{"name":"r_upgrade","path":"rooms/r_upgrade/r_upgrade.yy",},},
     {"roomId":{"name":"r_stad","path":"rooms/r_stad/r_stad.yy",},},
     {"roomId":{"name":"mineshaft","path":"rooms/mineshaft/mineshaft.yy",},},
     {"roomId":{"name":"catacomb","path":"rooms/catacomb/catacomb.yy",},},

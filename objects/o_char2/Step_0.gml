@@ -2,24 +2,36 @@
 //  E-TOETS: menu openen / sluiten / terug naar overzicht
 // ============================================================
 if (keyboard_check_pressed(ord("E"))) {
-    if (menu_open) {
-        if (selected_upgrade != -1) {
-            stop_upgrade_sound();
-            selected_upgrade = -1; // detail → overzicht
-        } else {
-            stop_upgrade_sound();
-            menu_open = false;     // overzicht → dicht
-        }
-    } else if (instance_exists(o_player) && distance_to_object(o_player) < 30) {
-        menu_open        = true;
-        selected_upgrade = -1;
-    }
+	if(global.talkedToNpc){
+	    if (menu_open) {
+	        if (selected_upgrade != -1) {
+	            stop_upgrade_sound();
+	            selected_upgrade = -1; // detail → overzicht
+	        } else {
+	            stop_upgrade_sound();
+	            menu_open = false;     // overzicht → dicht
+	        }
+	    } else if (instance_exists(o_player) && distance_to_object(o_player) < 30) {
+	        menu_open        = true;
+	        selected_upgrade = -1;
+	    }
+	}else{
+		show_hint("char2D1")
+		show_hint("char2D2")
+		show_hint("char2D3")
+		show_hint("char2D4")
+		show_hint("char2D5")
+		show_hint("char2D6")
+		show_hint("char2D7")
+		show_hint("char2D8")
+		show_hint("char2D9")
+		show_hint("char2D10")
+		show_hint("char2DEND")
+		global.talkedToNpc = true;
+	}
 }
 
 if (!menu_open) exit;
-
-// TIP: blokkeer speler-input hier als dat nodig is, bijv:
-// with (o_player) { can_move = false; }  (pas aan naar jouw player-variabele)
 
 // ============================================================
 //  MUISKLIK

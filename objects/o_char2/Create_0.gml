@@ -70,13 +70,14 @@ upgrades = [
         cost:     12,
         spr:      s_coin,
         var_name: "upg_headstart",
+		snd: snd_HavaNagila,
     },
     {
         name:     "Pickaxe",
         desc:     "Kan graven slopen. Let op: duur en geeft een tijdstraf bij gebruik!",
         cost:     25,
         spr:      s_coin,
-        var_name: "upg_pickaxe",
+        var_name: "pickaxeUnlocked",
     },
     {
         name:     "Map",
