@@ -83,6 +83,7 @@
     {"id":{"name":"s_gate_large","path":"sprites/s_gate_large/s_gate_large.yy",},"order":9,},
     {"id":{"name":"s_cave_collapsed","path":"sprites/s_cave_collapsed/s_cave_collapsed.yy",},"order":3,},
     {"id":{"name":"o_ui_hint","path":"objects/o_ui_hint/o_ui_hint.yy",},"order":8,},
+    {"id":{"name":"s_city3","path":"sprites/s_city3/s_city3.yy",},"order":28,},
     {"id":{"name":"o_rocks_randomized_vertical","path":"objects/o_rocks_randomized_vertical/o_rocks_randomized_vertical.yy",},"order":13,},
     {"id":{"name":"s_grave_horzontal_1","path":"sprites/s_grave_horzontal_1/s_grave_horzontal_1.yy",},"order":7,},
     {"id":{"name":"s_lock","path":"sprites/s_lock/s_lock.yy",},"order":12,},
@@ -157,6 +158,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"r_stad","path":"rooms/r_stad/r_stad.yy",},},
     {"roomId":{"name":"r_upgrade","path":"rooms/r_upgrade/r_upgrade.yy",},},
     {"roomId":{"name":"mainpage","path":"rooms/mainpage/mainpage.yy",},},
     {"roomId":{"name":"mineshaft","path":"rooms/mineshaft/mineshaft.yy",},},
@@ -164,7 +166,6 @@
     {"roomId":{"name":"cave","path":"rooms/cave/cave.yy",},},
     {"roomId":{"name":"r_gameover","path":"rooms/r_gameover/r_gameover.yy",},},
     {"roomId":{"name":"upgrade_menu","path":"rooms/upgrade_menu/upgrade_menu.yy",},},
-    {"roomId":{"name":"r_stad","path":"rooms/r_stad/r_stad.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":0,},
