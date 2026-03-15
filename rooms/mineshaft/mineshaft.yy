@@ -57,6 +57,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3593C2B3","properties":[],"isDnd":false,"objectId":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":0.953125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1072.0,"y":992.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_37294D70","properties":[],"isDnd":false,"objectId":{"name":"o_music","path":"objects/o_music/o_music.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":601.0,"y":158.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7D1FA21D","properties":[],"isDnd":false,"objectId":{"name":"o_coin","path":"objects/o_coin/o_coin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1128.0,"y":572.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3B10DF94","properties":[],"isDnd":false,"objectId":{"name":"o_teleport","path":"objects/o_teleport/o_teleport.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.12396479,"scaleX":2.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1056.0,"y":960.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"details","tilesetId":{"name":"t_cave_decorations","path":"tilesets/t_cave_decorations/t_cave_decorations.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":125,"SerialiseHeight":63,"TileCompressedData":[
 -7875,-2147483648,],},"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -142,6 +143,7 @@
     {"name":"inst_3593C2B3","path":"rooms/mineshaft/mineshaft.yy",},
     {"name":"inst_37294D70","path":"rooms/mineshaft/mineshaft.yy",},
     {"name":"inst_7D1FA21D","path":"rooms/mineshaft/mineshaft.yy",},
+    {"name":"inst_3B10DF94","path":"rooms/mineshaft/mineshaft.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
